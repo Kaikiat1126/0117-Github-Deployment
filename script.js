@@ -1,4 +1,4 @@
 const button = document.querySelector('button');
 button.addEventListener('click', () => {
-    console.log('Hello Clicked!');
+    alert('You clicked me!');
 });
