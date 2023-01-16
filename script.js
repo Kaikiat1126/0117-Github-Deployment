@@ -1,5 +1,4 @@
-const reaction = documnet.getElementByTagName('h2')[0];
-
-reaction.addEventListener('click', function() {
-    alert('You clicked me!');
+const button = document.querySelector('button');
+button.addEventListener('click', () => {
+    console.log('Hello Clicked!');
 });
